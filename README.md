@@ -24,6 +24,7 @@ We compare their performance using training metrics and evaluation visuals like 
 
 
 ---
+```
 
 ### ⚙️ Transfer Learning with ResNet50
 
