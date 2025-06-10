@@ -86,11 +86,39 @@ The models were evaluated on the test set using:
 * ROC Curve (AUC)
 * Prediction Probability Distribution
 
-### 🎯 ResNet50 Performance Example:
+---
 
-![Evaluation Metrics](images/resnet_evaluation.png)
+## 📊 Results
+
+This section compares both models based on test set metrics and visualization outputs.
+
+### 📌 Test Set Metrics
+
+| Model                         | Accuracy  | Precision | Recall   | AUC (ROC) |
+|------------------------------|-----------|-----------|----------|-----------|
+| Custom CNN                   | 86.7%     | 84.2%     | 85.5%    | 0.89      |
+| Transfer Learning (ResNet50) | **91.3%** | **89.8%** | **90.5%**| **0.94**  |
 
 ---
+
+### 🛠️ Custom CNN Results
+
+Below are the combined evaluation visualizations (Confusion Matrix, ROC Curve, and Prediction Distribution) for the custom CNN model:
+
+![Custom CNN Evaluation](images/custom_cnn_results.png)
+
+---
+
+### ⚙️ ResNet50 Transfer Model Results
+
+Below are the combined evaluation visualizations (Confusion Matrix, ROC Curve, and Prediction Distribution) for the custom  ResNet50 Transfer Model:
+
+![Custom CNN Evaluation](images/pretrained_model_results.png)
+
+> 🔍 As shown above, the ResNet50-based transfer model performs better across most evaluation metrics and shows clearer separation in predicted probabilities.
+
+---
+
 
 ## 📌 Key Metrics (Test Set)
 
@@ -108,7 +136,7 @@ The models were evaluated on the test set using:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/wildfire-prediction.git
+git clone https://github.com/theUtkarshRa/wildfire-prediction.git
 cd wildfire-prediction
 ```
 
@@ -160,9 +188,4 @@ This project was part of a wildfire detection research initiative at \[Your Inst
 
 MIT License
 
-```
-
----
-
-Let me know if you'd like me to generate a downloadable `.md` file or need help creating the `requirements.txt` file.
 ```
