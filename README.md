@@ -1,6 +1,3 @@
-Here’s the content properly formatted as Markdown for your `README.md` file:
-
-```markdown
 # 🔥 Wildfire Prediction from Satellite Imagery using CNNs
 
 This project demonstrates a deep learning pipeline for **binary wildfire classification** from satellite images using:
@@ -14,11 +11,10 @@ We compare their performance using training metrics and evaluation visuals like 
 
 ## 📁 Project Structure
 
-```
-
+```plaintext
 📦wildfire-prediction/
-├── custom\_cnn.py             # Defines custom CNN architecture
-├── transfer\_model.py         # Defines ResNet50-based transfer model
+├── custom_cnn.py             # Defines custom CNN architecture
+├── transfer_model.py         # Defines ResNet50-based transfer model
 ├── train.py                  # Handles training and callbacks
 ├── evaluate.py               # Evaluation logic and visualization
 ├── utils.py                  # Helper functions (data prep, plotting)
@@ -26,25 +22,6 @@ We compare their performance using training metrics and evaluation visuals like 
 ├── README.md
 └── images/                   # Visuals used in this README
 
-````
-
----
-
-## 🧠 Models Used
-
-### 🛠️ Custom CNN
-
-A handcrafted CNN model with:
-
-- 4 Convolutional Blocks (32–256 filters)
-- Batch Normalization, MaxPooling, Dropout
-- Fully connected layers: Dense(512) → Dense(256) → Dense(1)
-
-```python
-Model: "custom_cnn"
-Total params: ~4.3M
-Trainable params: All
-````
 
 ---
 
