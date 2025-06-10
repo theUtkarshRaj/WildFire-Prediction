@@ -44,7 +44,7 @@ Trainable params: ~650K
 
 Below is a sample of images from both wildfire and nowildfire categories used for training:
 
-![Training Samples](images/training_samples.png)
+![Training Samples](Images/training_samples.png)
 
 ---
 
@@ -52,7 +52,7 @@ Below is a sample of images from both wildfire and nowildfire categories used fo
 
 We tracked **Accuracy**, **Loss**, **Precision**, and **Recall** for both models.
 
-![Training Comparison](images/training_history_comparison.png)
+![Training Comparison](Images/training_history_comparison.png)
 
 ---
 
@@ -83,7 +83,7 @@ This section compares both models based on test set metrics and visualization ou
 
 Below are the combined evaluation visualizations (Confusion Matrix, ROC Curve, and Prediction Distribution) for the custom CNN model:
 
-![Custom CNN Evaluation](images/custom_cnn_results.png)
+![Custom CNN Evaluation](Images/custom_cnn_results.png)
 
 ---
 
@@ -91,7 +91,7 @@ Below are the combined evaluation visualizations (Confusion Matrix, ROC Curve, a
 
 Below are the combined evaluation visualizations (Confusion Matrix, ROC Curve, and Prediction Distribution) for the custom  ResNet50 Transfer Model:
 
-![Custom CNN Evaluation](images/pretrained_model_results.png)
+![Custom CNN Evaluation](Images/pretrained_model_results.png)
 
 > 🔍 As shown above, the ResNet50-based transfer model performs better across most evaluation metrics and shows clearer separation in predicted probabilities.
 
